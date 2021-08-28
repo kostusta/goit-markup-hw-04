@@ -233,6 +233,9 @@ ul {
   margin-left: var(--main-gap);
 }
 
+.benefits-section-item-icon {
+}
+
 .benefits-section-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -241,6 +244,8 @@ ul {
   text-transform: uppercase;
 
   color: var(--main-title-color);
+
+  margin-top: 30px;
 }
 
 .benefits-section-item-text {
