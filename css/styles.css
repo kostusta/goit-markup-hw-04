@@ -151,7 +151,7 @@ ul {
 
 /* ---Hero Section--- */
 .page-hero {
-  background-color: #2f303a;
+  background-color: #c4c4c4;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -318,6 +318,38 @@ ul {
   text-align: center;
 
   margin-top: 10px;
+}
+
+/* --Clients Section--- */
+.clients-section {
+  padding-top: var(--section-padding-top);
+  padding-bottom: var(--section-padding-bottom);
+}
+
+.clients-section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.clients-section-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.clients-section-item {
+}
+
+.clients-section-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-section-item-link {
+  display: block;
 }
 
 /* ---Footer--- */
