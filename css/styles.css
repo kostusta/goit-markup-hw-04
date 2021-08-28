@@ -138,11 +138,25 @@ ul {
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  display: flex;
+  align-items: center;
 }
 
 .page-header-contacts-item-link:hover,
-.page-header-contacts-item-link:focus {
+.page-header-contacts-item-link:focus,
+.mail-icon:hover,
+.mail-icon:focus,
+.phone-icon:hover,
+.phone-icon:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.mail-icon,
+.phone-icon {
+  fill: #757575;
+  margin-right: 10px;
 }
 
 .page-marker {
