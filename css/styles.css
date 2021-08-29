@@ -366,16 +366,23 @@ ul {
 }
 
 .client-section-item-link {
-  display: block;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: var(--main-text-color);
+}
+
+.client-section-item-link:hover,
+.client-section-item-link :focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-section-item-icon {
-  fill: #757575;
-}
-
-.clients-section-item-icon:hover,
-.clients-section-item-icon:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* ---Footer--- */
