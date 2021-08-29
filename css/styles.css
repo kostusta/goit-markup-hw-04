@@ -228,7 +228,15 @@ ul {
   margin-left: var(--main-gap);
 }
 
-.benefits-section-item-icon {
+.benefits-section .thumb {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .benefits-section-item-title {
