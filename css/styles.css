@@ -433,6 +433,7 @@ ul {
   padding-bottom: 60px;
 
   display: flex;
+  align-items: baseline;
 }
 
 .page-footer-address {
