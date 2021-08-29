@@ -342,8 +342,8 @@ ul {
 
 .team-section-person-social-list {
   display: flex;
-  align-content: center;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .eam-section-person-social-item:not(:last-child) {
@@ -359,7 +359,6 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  margin-top: 16px;
   align-items: center;
   justify-content: center;
   color: var(--main-text-color);
@@ -432,6 +431,8 @@ ul {
 .page-footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  display: flex;
 }
 
 .page-footer-address {
@@ -476,6 +477,50 @@ ul {
 .page-footer-address-item-tel:hover,
 .page-footer-address-item-tel:focus {
   color: var(--accent-color);
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-social-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.footer-social-item-link:hover,
+.footer-social-item-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-item-icon {
+  fill: currentColor;
 }
 
 /* -***-Portfolio page-***- */
