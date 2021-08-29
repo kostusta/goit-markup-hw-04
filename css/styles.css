@@ -144,18 +144,13 @@ ul {
 }
 
 .page-header-contacts-item-link:hover,
-.page-header-contacts-item-link:focus,
-.mail-icon:hover,
-.mail-icon:focus,
-.phone-icon:hover,
-.phone-icon:focus {
+.page-header-contacts-item-link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .mail-icon,
 .phone-icon {
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -358,7 +353,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-title-color);
 }
 
 .clients-section-list {
@@ -366,15 +361,21 @@ ul {
   margin-top: 50px;
 }
 
-.clients-section-item {
-}
-
 .clients-section-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: var(--main-gap);
 }
 
 .client-section-item-link {
   display: block;
+}
+
+.clients-section-item-icon {
+  fill: #757575;
+}
+
+.clients-section-item-icon:hover,
+.clients-section-item-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* ---Footer--- */
