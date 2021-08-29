@@ -57,8 +57,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  /* outline: 1px solid teal; */
 }
 
 .page-logo {
@@ -311,6 +309,10 @@ ul {
   margin-top: 50px;
 }
 
+.team-section-person + .team-section-person {
+  margin-left: var(--main-gap);
+}
+
 .team-section-person {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -321,10 +323,6 @@ ul {
 
 .team-section-person-photo {
   display: block;
-}
-
-.team-section-person + .team-section-person {
-  margin-left: var(--main-gap);
 }
 
 .team-section-person-name {
@@ -357,10 +355,6 @@ ul {
 .eam-section-person-social-item:not(:last-child) {
   margin-right: 10px;
 }
-
-/* .eam-section-person-social-item {
-  display: flex;
-} */
 
 .team-section-person-social-item-link {
   display: flex;
