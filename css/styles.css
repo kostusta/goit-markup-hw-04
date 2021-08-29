@@ -340,6 +340,41 @@ ul {
   margin-top: 10px;
 }
 
+.team-section-person-social-list {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.eam-section-person-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* .eam-section-person-social-item {
+  display: flex;
+} */
+
+.team-section-person-social-item-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-text-color);
+}
+
+.team-section-person-social-item-link:hover,
+.team-section-person-social-item-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.team-section-person-social-item-icon {
+  fill: currentColor;
+}
+
 /* --Clients Section--- */
 .clients-section {
   padding-top: var(--section-padding-top);
