@@ -412,7 +412,7 @@ ul {
 }
 
 .client-section-item-link:hover,
-.client-section-item-link :focus {
+.client-section-item-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
