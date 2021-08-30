@@ -139,6 +139,8 @@ ul {
 
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .page-header-contacts-item-link:hover,
